@@ -95,11 +95,14 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Readme.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="ClassDiagram1.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Assests\navigation.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
