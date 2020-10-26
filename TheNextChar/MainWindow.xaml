@@ -6,15 +6,15 @@
         xmlns:local="clr-namespace:TheNextChar"
         mc:Ignorable="d"
         Title="MainWindow" Height="498" Width="593">
-    <Grid Margin="0,0,2,0">
-        <Button x:Name="startButton" Content="STOPED" HorizontalAlignment="Left" Margin="42,367,0,0" VerticalAlignment="Top" Width="56" Click="OnStartButtonClicked"/>
-        <Button x:Name="DoorOpenButton" Content="CLOSE" HorizontalAlignment="Left" Margin="203,367,0,0" VerticalAlignment="Top" Width="56" Click="OnDoorOpenButtonClicked"/>
-        <Button x:Name="LockDoorButton" Content="LOCK" HorizontalAlignment="Left" Margin="366,367,0,0" VerticalAlignment="Top" Width="52" Click="OnLockDoorButtonClicked"/>
+    <Grid Margin="0,0,2,0" Background="Black">
+        <Button x:Name="startButton" Content="STOPED" Background="Green" Foreground="White" HorizontalAlignment="Left" Margin="42,359,0,0" VerticalAlignment="Top" Width="86" Click="OnStartButtonClicked" Height="37"/>
+        <Button x:Name="DoorOpenButton" Content="CLOSE" HorizontalAlignment="Left" Margin="203,367,0,0" VerticalAlignment="Top" Width="77" Click="OnDoorOpenButtonClicked"/>
+        <Button x:Name="LockDoorButton" Content="LOCK" HorizontalAlignment="Left" Margin="357,367,0,0" VerticalAlignment="Top" Width="68" Click="OnLockDoorButtonClicked"/>
         <Button x:Name="AccuButton" Content="OFF" HorizontalAlignment="Left" Margin="491,367,0,0" VerticalAlignment="Top" Width="59" Click="OnAccuButtonClicked"/>
-        <Label Name="status" Content="Label" HorizontalAlignment="Left" Margin="42,405,0,0" VerticalAlignment="Top"/>
-        <Label Name="DoorOpenState" Content="door is open" HorizontalAlignment="Left" Margin="203,405,0,0" VerticalAlignment="Top"/>
-        <Label Name="LockDoorState" Content="door unlocked" HorizontalAlignment="Left" Margin="366,405,0,0" VerticalAlignment="Top"/>
-        <Label Name="AccuState" Content="no power" HorizontalAlignment="Left" Margin="491,405,0,0" VerticalAlignment="Top"/>
+        <Label  Name="status" Content="Engine started" Foreground="White" HorizontalAlignment="Left" Margin="42,405,0,0" VerticalAlignment="Top"/>
+        <Label Name="DoorOpenState" Content="door is open" Foreground="Red" HorizontalAlignment="Left" Margin="203,405,0,0" VerticalAlignment="Top"/>
+        <Label Name="LockDoorState" Content="door unlocked" Foreground="Red" HorizontalAlignment="Left" Margin="347,405,0,0" VerticalAlignment="Top"/>
+        <Label Name="AccuState" Content="no power" Foreground="Red" HorizontalAlignment="Left" Margin="491,405,0,0" VerticalAlignment="Top"/>
         <Image HorizontalAlignment="Left" Height="335" Margin="10,10,0,0" VerticalAlignment="Top" Width="560" Source="Assests/navigation.jpg"/>
 
     </Grid>

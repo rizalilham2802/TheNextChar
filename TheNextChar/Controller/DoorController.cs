@@ -51,7 +51,7 @@ namespace TheNextChar.Controller
 
     interface OnDoorChanged
     {
-        void OnDoorLockeStateChanged(string vale, string message);
-        void OnDoorOpenStateChanged(string vale, string message);
+        void OnDoorLockeStateChanged(string value, string message);
+        void OnDoorOpenStateChanged(string value, string message);
     }
 }
